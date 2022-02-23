@@ -1,4 +1,4 @@
-package com.example.myfoodapplication.ui.home;
+package com.example.myfoodapplication.ui.dailymeal;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,16 +10,12 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.myfoodapplication.R;
-import com.example.myfoodapplication.databinding.FragmentHomeBinding;
 
-public class HomeFragment extends Fragment {
+public class DailyMealFragment extends Fragment {
 
   public View onCreateView(@NonNull LayoutInflater inflater,
                            ViewGroup container, Bundle savedInstanceState) {
-    View root = inflater.inflate(R.layout.fragment_home, container, false);
-
-    return root;
+    return null;
   }
 
 }
